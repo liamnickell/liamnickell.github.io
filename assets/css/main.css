@@ -186,7 +186,7 @@
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #348cb2 url("images/bg.jpg") bottom left;
+		background: #348cb2 url("images/hd-stars-galaxies.jpeg") bottom left;
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
@@ -521,7 +521,7 @@
 		}
 
 		#header p {
-			font-size: 1.3em;
+			font-size: 1.35em;
 			margin: 0.75em 0 0.25em 0;
 			opacity: 0.75;
 		}
