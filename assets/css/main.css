@@ -186,8 +186,8 @@
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #348cb2 url("images/hd-stars-galaxies.jpeg") bottom left;
-		background-repeat: repeat-x;
+		background: #348cb2 url("images/bg.jpg") bottom;
+		background-repeat: repeat-x repeat-y;
 		height: 100%;
 		left: 0;
 		opacity: 1;
@@ -260,7 +260,7 @@
 	}
 
 	#bg {
-		background-size: 2250px auto;
+		background-size: cover;
 		width: 6750px;
 	}
 
@@ -313,9 +313,9 @@
 		animation: overlay 1.5s 1.5s forwards;
 		background-attachment: fixed, fixed;
 		background-image: url("images/overlay-pattern.png"), url("images/overlay.svg");
-		background-position: top left, center center;
+		background-position: center center;
 		background-repeat: repeat, no-repeat;
-		background-size: auto, cover;
+		background-size: cover;
 		height: 100%;
 		left: 0;
 		opacity: 0;
